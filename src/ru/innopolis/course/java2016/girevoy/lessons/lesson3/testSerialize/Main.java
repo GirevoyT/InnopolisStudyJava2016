@@ -22,7 +22,7 @@ public class Main {
 			vesta1.setRegnum("asdasdasdasd");
 			objectOutputStream.writeObject(vesta1);
 			Car vesta2 = (Car)objectInputStream.readObject();
-			System.out.println("success2");
+			System.out.println("success");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
