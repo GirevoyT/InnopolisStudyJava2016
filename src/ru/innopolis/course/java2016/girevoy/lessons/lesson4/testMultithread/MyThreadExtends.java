@@ -23,6 +23,6 @@ public class MyThreadExtends extends Thread {
 				e.printStackTrace();
 			}
 		}
-
+		System.out.println("Thread: \""  +this.name + "\" successfully!");
 	}
 }
