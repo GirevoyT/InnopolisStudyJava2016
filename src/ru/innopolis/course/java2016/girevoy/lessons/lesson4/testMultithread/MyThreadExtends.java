@@ -12,6 +12,9 @@ public class MyThreadExtends extends Thread {
 
 	@Override
 	public void run() {
+		if ("Thread One".equals(this.name)) {
+			throw new RuntimeException("Должен вылететь первый поток!");
+		}
 		for (int i=0;i <10;i++) {
 			System.out.println(this.name);
 			try {
