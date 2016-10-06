@@ -8,6 +8,7 @@ public class MyThreadExtends extends Thread {
 
 	public MyThreadExtends(String name) {
 		this.name = name;
+		setDaemon(true);
 	}
 
 	@Override
@@ -16,9 +17,9 @@ public class MyThreadExtends extends Thread {
 			throw new RuntimeException("Должен вылететь первый поток!");
 		}
 		for (int i=0;i <10;i++) {
-			System.out.println(this.name);
+			System.out.println(this.name + " counter = " + i);
 			try {
-				Thread.sleep(100);
+				Thread.sleep(10);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
