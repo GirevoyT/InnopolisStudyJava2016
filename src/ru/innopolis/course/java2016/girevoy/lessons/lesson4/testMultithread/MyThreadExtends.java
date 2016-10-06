@@ -17,9 +17,11 @@ public class MyThreadExtends extends Thread {
 	public void run() {
 		for (int i=0;i <10000;i++) {
 
+			synchronized (this.counter) {
+				int count = this.counter.getValue();
+				this.counter.setValue(count + 1);
+			}
 
-			int count = this.counter.getValue();
-			this.counter.setValue(count + 1);
 
 //			System.out.println(this.name + " counter = " + i);
 //			try {
