@@ -5,24 +5,30 @@ package ru.innopolis.course.java2016.girevoy.lessons.lesson4.testMultithread;
  */
 public class MyThreadExtends extends Thread {
 	private final String name;
+	private Box counter;
 
-	public MyThreadExtends(String name) {
+	public MyThreadExtends(String name, Box counter) {
 		this.name = name;
-		setDaemon(true);
+		this.counter = counter;
+		//setDaemon(true);
 	}
 
 	@Override
 	public void run() {
-		if ("Thread One".equals(this.name)) {
-			throw new RuntimeException("Должен вылететь первый поток!");
-		}
-		for (int i=0;i <10;i++) {
-			System.out.println(this.name + " counter = " + i);
-			try {
-				Thread.sleep(10);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
+		for (int i=0;i <10000;i++) {
+
+
+			int count = this.counter.getValue();
+			this.counter.setValue(count + 1);
+
+//			System.out.println(this.name + " counter = " + i);
+//			try {
+//				Thread.sleep(1);
+//			} catch (InterruptedException e) {
+//				e.printStackTrace();
+//			}
+
+			System.out.println("Box counter " + this.counter.getValue());
 		}
 	}
 }

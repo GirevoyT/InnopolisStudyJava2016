@@ -9,9 +9,10 @@ import java.util.Set;
 public class TestMultithread {
 	public static void main(String[] args) {
 		Set<Thread> threadSet = new HashSet<>();
-		threadSet.add(new MyThreadExtends("Thread One"));
-		threadSet.add(new MyThreadExtends("Thread Two"));
-		threadSet.add(new MyThreadExtends("Thread Three"));
+		Box box = new Box(0);
+		threadSet.add(new MyThreadExtends("Thread One", box));
+		threadSet.add(new MyThreadExtends("Thread Two", box));
+		threadSet.add(new MyThreadExtends("Thread Three", box));
 
 		for (Thread thread : threadSet) {
 			thread.start();
