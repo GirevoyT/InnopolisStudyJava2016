@@ -25,5 +25,8 @@ public class TestMultithread {
 		}
 
 		t1.interrupt();
+		synchronized (box) {
+			box.notify();
+		}
 	}
 }
