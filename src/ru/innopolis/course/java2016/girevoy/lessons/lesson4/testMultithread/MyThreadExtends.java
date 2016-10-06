@@ -15,22 +15,14 @@ public class MyThreadExtends extends Thread {
 
 	@Override
 	public void run() {
-		for (int i=0;i <10000;i++) {
 
-			synchronized (this.counter) {
-				int count = this.counter.getValue();
-				this.counter.setValue(count + 1);
+		synchronized (this.counter) {
+			try {
+				this.counter.wait();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
 			}
-
-
-//			System.out.println(this.name + " counter = " + i);
-//			try {
-//				Thread.sleep(1);
-//			} catch (InterruptedException e) {
-//				e.printStackTrace();
-//			}
-
-			System.out.println("Box counter " + this.counter.getValue());
 		}
+
 	}
 }
