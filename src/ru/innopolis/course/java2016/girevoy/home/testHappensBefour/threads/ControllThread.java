@@ -33,9 +33,7 @@ public class ControllThread extends Thread{
 						throw (new BaidaExeption("Прошло больше 1 тика"));
 					}
 					prevTime = chronoThread.getTime();
-
 				}
-
 				synchronized (setOfBigChrono) {
 					for (BigChronoCheckThread thread : setOfBigChrono) {
 						if (prevTime % thread.getQuant() == 0) {
@@ -53,6 +51,7 @@ public class ControllThread extends Thread{
 				e.printStackTrace();
 			} catch (BaidaExeption e) {
 				e.printStackTrace();
+				this.interrupt();
 			}
 		}
 	}
