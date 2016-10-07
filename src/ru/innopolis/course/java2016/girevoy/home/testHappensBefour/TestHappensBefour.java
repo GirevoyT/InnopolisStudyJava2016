@@ -14,11 +14,11 @@ public class TestHappensBefour {
 		ControllThread controllThread = new ControllThread(chronoThread);
 
 		BigChronoCheckThread thread1 = new BigChronoCheckThread(5);
-		BigChronoCheckThread thread2 = new BigChronoCheckThread(7);
+		BigChronoCheckThread thread2 = new BigChronoCheckThread(3);
 
 		controllThread.addNewBigChronoThread(thread1);
 		controllThread.addNewBigChronoThread(thread2);
 
-		chronoThread.start();
+		controllThread.start();
 	}
 }
