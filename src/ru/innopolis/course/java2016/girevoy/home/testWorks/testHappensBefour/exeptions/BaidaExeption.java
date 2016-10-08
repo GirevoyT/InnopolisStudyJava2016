@@ -1,4 +1,4 @@
-package ru.innopolis.course.java2016.girevoy.home.testHappensBefour.exeptions;
+package ru.innopolis.course.java2016.girevoy.home.testWorks.testHappensBefour.exeptions;
 
 /**
  * Created by Arxan on 07.10.2016.

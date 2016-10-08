@@ -1,8 +1,8 @@
-package ru.innopolis.course.java2016.girevoy.home.testHappensBefour;
+package ru.innopolis.course.java2016.girevoy.home.testWorks.testHappensBefour;
 
-import ru.innopolis.course.java2016.girevoy.home.testHappensBefour.threads.BigChronoCheckThread;
-import ru.innopolis.course.java2016.girevoy.home.testHappensBefour.threads.ChronoThread;
-import ru.innopolis.course.java2016.girevoy.home.testHappensBefour.threads.ControllThread;
+import ru.innopolis.course.java2016.girevoy.home.testWorks.testHappensBefour.threads.BigChronoCheckThread;
+import ru.innopolis.course.java2016.girevoy.home.testWorks.testHappensBefour.threads.ChronoThread;
+import ru.innopolis.course.java2016.girevoy.home.testWorks.testHappensBefour.threads.ControllThread;
 
 /**
  * Created by masterlomaster on 07.10.16.

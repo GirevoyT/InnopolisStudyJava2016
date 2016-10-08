@@ -1,4 +1,4 @@
-package ru.innopolis.course.java2016.girevoy.home.testHappensBefour.threads;
+package ru.innopolis.course.java2016.girevoy.home.testWorks.testHappensBefour.threads;
 
 /**
  * Created by masterlomaster on 07.10.16.

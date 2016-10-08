@@ -1,6 +1,6 @@
-package ru.innopolis.course.java2016.girevoy.home.testHappensBefour.threads;
+package ru.innopolis.course.java2016.girevoy.home.testWorks.testHappensBefour.threads;
 
-import ru.innopolis.course.java2016.girevoy.home.testHappensBefour.exeptions.BaidaExeption;
+import ru.innopolis.course.java2016.girevoy.home.testWorks.testHappensBefour.exeptions.BaidaExeption;
 
 import java.util.HashSet;
 import java.util.Set;
