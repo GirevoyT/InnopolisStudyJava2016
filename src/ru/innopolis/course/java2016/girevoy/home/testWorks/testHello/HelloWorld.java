@@ -8,12 +8,24 @@ import java.util.Queue;
  */
 public class HelloWorld {
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
-		Integer tmp = new Integer(5);
-		Queue<Integer> queue= new PriorityQueue<>();
-		queue.add(123);
-		queue.add(234);
-		System.out.println(queue.peek());
-		System.out.println(queue.poll());
+		lala l1 = new lala();
+		lala l2 = new lolo();
+		lolo l3 = new lolo();
+		System.out.println("" + l1.tt() + l2.tt() + l3.tt());
+	}
+}
+class lala {
+	int a = 5;
+	public int getA() {
+		return this.a;
+	}
+	public int tt() {
+		return getA();
+	}
+}
+class lolo extends lala {
+	int a = 3;
+	public int getA() {
+		return this.a;
 	}
 }
