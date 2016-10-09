@@ -5,6 +5,12 @@ package ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.resource;
  */
 public abstract class Resource<T> {
 	private volatile boolean isComplite;
+	private int countOfListeners;
+
+
+	public synchronized void addListener() {
+		this.countOfListeners++;
+	}
 
 	/**
 	 * Этот мерод возвращает true если есть следующий объект для возврата методом next()
