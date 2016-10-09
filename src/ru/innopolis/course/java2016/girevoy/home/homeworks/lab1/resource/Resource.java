@@ -7,7 +7,9 @@ public abstract class Resource<T> {
 	private volatile boolean isComplite;
 	private int countOfListeners;
 
-
+	/**
+	 * Этот метод добавляет слушателя (кого то надо notify)
+	 */
 	public synchronized void addListener() {
 		this.countOfListeners++;
 	}

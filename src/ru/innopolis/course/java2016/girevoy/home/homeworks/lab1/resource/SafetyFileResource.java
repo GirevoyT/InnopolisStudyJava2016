@@ -45,7 +45,7 @@ public class SafetyFileResource extends Resource<Integer> {
 	 * Просто проверяем пуста ли очередь
 	 */
 	public boolean hasNext() {
-		synchronized (queue) {
+		synchronized (queue) {          //WARNING! Поподробней про синхронайз. 1. Синхронайз объекта и его поля и их взаимодействие 2. Какую память переносит синхронайз (зависит или нет от монитора)
 			return !queue.isEmpty();
 		}
 	}
