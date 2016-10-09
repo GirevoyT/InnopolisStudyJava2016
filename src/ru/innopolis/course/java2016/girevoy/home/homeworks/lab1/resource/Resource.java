@@ -14,6 +14,14 @@ public abstract class Resource<T> {
 		this.countOfListeners++;
 	}
 
+	protected synchronized int getCountOfListeners() {
+		return countOfListeners;
+	}
+
+	public synchronized void takeTheListener() {
+		this.countOfListeners--;
+	}
+
 	/**
 	 * Этот мерод возвращает true если есть следующий объект для возврата методом next()
 	 * @return

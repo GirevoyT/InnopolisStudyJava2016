@@ -31,6 +31,12 @@ public class SafetyFileResource extends Resource<Integer> {
 						synchronized (queue) {
 							queue.add(tmpInt);			//WARNING! Где красивше проверять на чётность и положительность! (или вообще считавать всё а уже потом проверять ещё и на то что это int
 						}
+						synchronized (this) {
+							if (getCountOfListeners() > 0) {
+								this.notify();
+								takeTheListener();
+							}
+						}
 					}
 				}
 			};
