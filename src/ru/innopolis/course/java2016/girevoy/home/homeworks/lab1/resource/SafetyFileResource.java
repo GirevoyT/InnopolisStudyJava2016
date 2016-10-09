@@ -12,35 +12,31 @@ import java.util.Scanner;
  */
 public class SafetyFileResource extends Resource<Integer> {
 
-	private Queue<Integer> queue = new PriorityQueue<>();
-
+	private final Queue<Integer> queue = new PriorityQueue<>();
 
 	/**
 	 * Конструктор который открывает файл fileName и заполняет очередь всеми int из него
 	 * @param fileName
 	 * @throws FileNotFoundException
 	 */
-	public SafetyFileResource(String fileName) throws FileNotFoundException {
-		new Thread(){						//WARNING! Как ведут себя анонимные классы со сборщиком мусора
-			@Override
-			public void run() {
-				try (FileInputStream fileInputStream = new FileInputStream(fileName)) {
-					Scanner scanner = new Scanner(fileInputStream);
-					if (scanner.hasNextInt()) {
-						Integer tmpInt = new Integer(scanner.nextInt());
+
+	public SafetyFileResource(String fileName) throws IOException {
+		try (FileInputStream fileInputStream = new FileInputStream(fileName)) {
+			Scanner scanner = new Scanner(fileInputStream);
+			new Thread(){						//WARNING! Как ведут себя анонимные классы со сборщиком мусора
+				@Override
+				public void run() {
+					while (scanner.hasNextInt()) {
+						Integer tmpInt = scanner.nextInt();
 						synchronized (queue) {
 							queue.add(tmpInt);			//WARNING! Где красивше проверять на чётность и положительность! (или вообще считавать всё а уже потом проверять ещё и на то что это int
 						}
 					}
-				} catch (FileNotFoundException e) {
-					e.printStackTrace();
-				} catch (IOException e) {
-					e.printStackTrace();
-				} finally {
-					compliteResource();
 				}
-			}
-		};
+			};
+		} finally {
+			compliteResource();
+		}
 
 	}
 
