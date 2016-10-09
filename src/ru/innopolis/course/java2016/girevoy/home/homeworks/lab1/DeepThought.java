@@ -10,7 +10,8 @@ import java.util.Queue;
  */
 public class DeepThought {
 	private Queue<Integer> queue = new PriorityQueue<>();
-	private Integer sum;
+	private Integer sum = 0;
+	private DeepThought thisDeepThought = this;
 
 	public DeepThought() {
 		new Thread() {
@@ -25,16 +26,13 @@ public class DeepThought {
 									break;
 								}
 							}
-							synchronized (this) {
-								this.wait();
-								break;
+							synchronized (thisDeepThought) {
+								thisDeepThought.wait();
 							}
 						}
 						if ((tmpInteger.intValue() > 0) && ((tmpInteger.intValue() % 2) == 0)) {
-							synchronized (sum) {
-								sum = sum.intValue() + tmpInteger.intValue();
-								System.out.println("Текущее значение равно " + sum);
-							}
+							sum = sum.intValue() + tmpInteger.intValue();
+							System.out.println("Текущее значение равно " + sum);
 						}
 					} catch (InterruptedException e) {
 						e.printStackTrace();

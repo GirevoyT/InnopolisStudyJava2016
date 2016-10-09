@@ -14,11 +14,8 @@ public class Main {
 		System.out.println("Start!");
 		SafetyFileResource resource1 = new SafetyFileResource(".\\src\\Resource1");
 		Resource<Integer> resource2 = new SafetyFileResource(".\\src\\Resource2");
-		Thread.sleep(1000);
 		DeepThought deepThought = new DeepThought();
 		Devourer devourer1 = new Devourer(resource1,deepThought);
-		Thread.sleep(1000);
-		System.out.println("БАМБОЛЕЙЛО");
-//		Devourer devourer2 = new Devourer(resource2,deepThought);
+		Devourer devourer2 = new Devourer(resource2,deepThought);
 	}
 }
