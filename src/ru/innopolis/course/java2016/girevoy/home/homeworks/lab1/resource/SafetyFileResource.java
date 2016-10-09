@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class SafetyFileResource extends Resource<Integer> {
 
 	private final Queue<Integer> queue = new PriorityQueue<>();
-	private SafetyFileResource thisSafetyFileResource = this;
+	private final SafetyFileResource thisSafetyFileResource = this;
 
 	/**
 	 * Конструктор который открывает файл fileName и заполняет очередь всеми int из него

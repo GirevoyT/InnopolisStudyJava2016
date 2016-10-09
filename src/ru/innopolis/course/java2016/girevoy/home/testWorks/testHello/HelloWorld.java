@@ -1,5 +1,7 @@
 package ru.innopolis.course.java2016.girevoy.home.testWorks.testHello;
 
+import org.omg.CORBA.Object;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -17,5 +19,9 @@ public class HelloWorld {
 				System.out.println("123");
 			}
 		}.start();
+		Integer tmp  = 5;
+		synchronized (tmp) {
+			tmp.notify();
+		}
 	}
 }
