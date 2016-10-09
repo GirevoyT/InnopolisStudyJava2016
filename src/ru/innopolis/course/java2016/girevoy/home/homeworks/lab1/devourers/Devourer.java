@@ -1,6 +1,6 @@
 package ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.devourers;
 
-import org.omg.CORBA.Object;
+
 import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.DeepThought;
 import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.resource.Resource;
 
