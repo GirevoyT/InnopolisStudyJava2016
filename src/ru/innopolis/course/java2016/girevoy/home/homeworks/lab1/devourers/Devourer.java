@@ -14,23 +14,22 @@ public class Devourer<T> extends Thread{
 	public Devourer(Resource<T> resource, DeepThought deepThought) {
 		this.resource = resource;
 		this.deepThought = deepThought;
+		this.start();
 	}
 
 
 	@Override
 	public void run() {
-
 		while (!isInterrupted()) {
 			T tmpObject;
 			synchronized (resource) {
 				if (resource.hasNext()) {
 					tmpObject = resource.next();
 					synchronized (deepThought) {
-						deepThought.add(tmpObject);
+						deepThought.addData(tmpObject);
 						deepThought.notify();
 					}
 				} else if (!resource.isComplite()) {
-					resource.addListener();
 					try {
 						resource.addListener();
 						resource.wait();
@@ -38,9 +37,10 @@ public class Devourer<T> extends Thread{
 						e.printStackTrace();
 						resource.takeTheListener();
 					}
+				} else {
+					this.interrupt();
 				}
 			}
-
 		}
 	}
 }

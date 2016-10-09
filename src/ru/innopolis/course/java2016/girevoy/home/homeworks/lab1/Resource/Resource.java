@@ -1,9 +1,27 @@
-package ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.Resource;
+package ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.resource;
 
 /**
  * Created by Arxan on 08.10.2016.
  */
 public abstract class Resource<T> {
+	private volatile boolean isComplite;
+	private int countOfListeners;
+
+	/**
+	 * Этот метод добавляет слушателя (кого то надо notify)
+	 */
+	public synchronized void addListener() {
+		this.countOfListeners++;
+	}
+
+	protected synchronized int getCountOfListeners() {
+		return countOfListeners;
+	}
+
+	public synchronized void takeTheListener() {
+		this.countOfListeners--;
+	}
+
 	/**
 	 * Этот мерод возвращает true если есть следующий объект для возврата методом next()
 	 * @return
@@ -15,8 +33,6 @@ public abstract class Resource<T> {
 	 * @return
 	 */
 	public abstract T next();
-	private boolean isComplite;
-
 	/**
 	 * Этот метод возвращает статус: обработан ли реурс полностью
 	 * @return
@@ -25,7 +41,11 @@ public abstract class Resource<T> {
 		return isComplite;
 	}
 
-	public void compliteResource() {
+	/**
+	 * Этот метод устанавливает флаг что ресурс обработан полностью
+	 * @return
+	 */
+	protected void compliteResource() {
 		isComplite = true;
 	}
 }

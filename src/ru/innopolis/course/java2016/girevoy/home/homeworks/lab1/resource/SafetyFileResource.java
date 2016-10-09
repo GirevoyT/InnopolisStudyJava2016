@@ -19,13 +19,12 @@ public class SafetyFileResource extends Resource<Integer> {
 	 * @param fileName
 	 * @throws FileNotFoundException
 	 */
-
-	public SafetyFileResource(String fileName) throws IOException {
-		try (FileInputStream fileInputStream = new FileInputStream(fileName)) {
-			Scanner scanner = new Scanner(fileInputStream);
-			new Thread(){						//WARNING! Как ведут себя анонимные классы со сборщиком мусора
-				@Override
-				public void run() {
+	public SafetyFileResource(String fileName) {
+		new Thread(){						//WARNING! Как ведут себя анонимные классы со сборщиком мусора
+			@Override
+			public void run() {
+				try (FileInputStream fileInputStream = new FileInputStream(fileName)) {
+					Scanner scanner = new Scanner(fileInputStream);
 					while (scanner.hasNextInt()) {
 						Integer tmpInt = scanner.nextInt();
 						synchronized (queue) {
@@ -38,12 +37,20 @@ public class SafetyFileResource extends Resource<Integer> {
 							}
 						}
 					}
+				} catch (FileNotFoundException e) {
+					e.printStackTrace();
+				} catch (IOException e) {
+					e.printStackTrace();
+				} finally {
+					compliteResource();
+					synchronized (this) {
+						if (getCountOfListeners() > 0) {
+							this.notifyAll();
+						}
+					}
 				}
-			};
-		} finally {
-			compliteResource();
-		}
-
+			}
+		}.start();
 	}
 
 	@Override
