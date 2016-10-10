@@ -12,8 +12,8 @@ import java.io.IOException;
 public class Main {
 	public static void main(String[] args) throws InterruptedException {
 		System.out.println("Start!");
-		SafetyFileResource resource1 = new SafetyFileResource(".\\src\\Resource1");
-		Resource<Integer> resource2 = new SafetyFileResource(".\\src\\Resource2");
+		SafetyFileResource resource1 = new SafetyFileResource("./src/Resource1");
+		Resource<Integer> resource2 = new SafetyFileResource("./src/Resource2");
 		DeepThought deepThought1 = new DeepThought();
 		DeepThought deepThought2 = new DeepThought();
 		Devourer devourer1 = new Devourer(resource1,deepThought1);
