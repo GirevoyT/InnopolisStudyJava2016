@@ -46,7 +46,7 @@ public class DeepThought {
 		}.start();
 	}
 
-	public <T> void addData(T data) {
+	public void addData(Integer data) {
 		if (data.getClass().equals(Integer.class)) {
 			Integer tmpInteger = (Integer)data;
 			synchronized (queue) {

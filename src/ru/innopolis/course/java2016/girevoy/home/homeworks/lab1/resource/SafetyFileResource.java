@@ -13,7 +13,6 @@ import java.util.Scanner;
 public class SafetyFileResource extends Resource<Integer> {
 
 	private final Queue<Integer> queue = new PriorityQueue<>();
-	private final SafetyFileResource thisSafetyFileResource = this;
 
 	/**
 	 * Конструктор который открывает файл fileName и заполняет очередь всеми int из него
@@ -31,9 +30,9 @@ public class SafetyFileResource extends Resource<Integer> {
 						synchronized (queue) {
 							queue.add(tmpInt);			//WARNING! Где красивше проверять на чётность и положительность! (или вообще считавать всё а уже потом проверять ещё и на то что это int
 						}
-						synchronized (thisSafetyFileResource) {
+						synchronized (SafetyFileResource.this) {
 							if (getCountOfListeners() > 0) {
-								thisSafetyFileResource.notify();
+								SafetyFileResource.this.notify();
 								takeTheListener();
 							}
 						}

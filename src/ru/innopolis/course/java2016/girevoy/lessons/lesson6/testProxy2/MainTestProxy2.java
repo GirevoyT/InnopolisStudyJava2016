@@ -13,21 +13,17 @@ public class MainTestProxy2 {
 
 
 		long timer = System.currentTimeMillis();
-		for (int i = 0; i < 100_000_000;i++) {
-			human.setAge(1);
-			human.getAge();
-			human.setName("Name");
-			human.getName();
+		for (int i = 0; i < 10_000_000;i++) {
+			human.setAge((int)Math.random()*100);
+
 		}
 		System.out.println( "Время " + (System.currentTimeMillis() - timer));
 
 		human = new HumanImpl();
 		timer = System.currentTimeMillis();
-		for (int i = 0; i < 100_000_000;i++) {
-			human.setAge(1);
-			human.getAge();
-			human.setName("Name");
-			human.getName();
+		for (int i = 0; i < 10_000_000;i++) {
+			human.setAge((int)Math.random()*100);
+
 		}
 		System.out.println("Время " + (System.currentTimeMillis() - timer));
 
