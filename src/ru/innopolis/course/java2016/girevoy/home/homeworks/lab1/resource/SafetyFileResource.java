@@ -23,8 +23,8 @@ public class SafetyFileResource extends Resource<Integer> {
 		new Thread(){						//WARNING! Как ведут себя анонимные классы со сборщиком мусора
 			@Override
 			public void run() {
-				try (FileInputStream fileInputStream = new FileInputStream(fileName)) {
-					Scanner scanner = new Scanner(fileInputStream);
+				try (FileInputStream fileInputStream = new FileInputStream(fileName);
+					 Scanner scanner = new Scanner(fileInputStream);) {
 					while (scanner.hasNextInt()) {
 						Integer tmpInt = scanner.nextInt();
 						synchronized (queue) {
@@ -43,9 +43,9 @@ public class SafetyFileResource extends Resource<Integer> {
 					e.printStackTrace();
 				} finally {
 					compliteResource();
-					synchronized (thisSafetyFileResource) {
+					synchronized (SafetyFileResource.this) {
 						if (getCountOfListeners() > 0) {
-							thisSafetyFileResource.notifyAll();
+							SafetyFileResource.this.notifyAll();
 						}
 					}
 				}
