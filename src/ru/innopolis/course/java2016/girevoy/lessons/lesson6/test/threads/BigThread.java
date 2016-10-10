@@ -8,15 +8,31 @@ import java.util.Set;
  */
 public class BigThread extends Thread{
 	private Set<Integer> set = new HashSet<>();
+
+	/**
+	 * Метод для добавления значения в хранилище (уникальность обеспеценна HashSet)
+	 * @param tmpValue
+	 */
 	public synchronized void addValue(int tmpValue) {
 		set.add(new Integer(tmpValue));
 		System.out.println("Сгенерированно значение " + tmpValue);
 	}
 
+
+	/**
+	 * Конструктор просто запускает поток при создании
+	 */
 	public BigThread() {
 		this.start();
 	}
 
+
+	/**
+	 * Просто ран :)
+	 * Раз в 5 секунд проверяет колличество эллементов в сете
+	 * При достижении 101 (от 0 до 100) останавливает поток
+	 *
+	 */
 	public void run() {
 		while (!isInterrupted()) {
 			try {
