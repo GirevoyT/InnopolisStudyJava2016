@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/IdeaProjects.iml" filepath="$PROJECT_DIR$/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InnopolisStudyJava2016.iml" filepath="$PROJECT_DIR$/.idea/modules/InnopolisStudyJava2016.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InnopolisStudyJava2016_main.iml" filepath="$PROJECT_DIR$/.idea/modules/InnopolisStudyJava2016_main.iml" group="InnopolisStudyJava2016" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InnopolisStudyJava2016_test.iml" filepath="$PROJECT_DIR$/.idea/modules/InnopolisStudyJava2016_test.iml" group="InnopolisStudyJava2016" />
     </modules>
   </component>
 </project>
