@@ -1,0 +1,460 @@
+2016-10-12 23:38:46,454 [INFO ][main            ][course.java2016.girevoy.home.homeworks.lab1.Main] - Старт приложения
+2016-10-12 23:38:46,460 [INFO ][main            ][course.java2016.girevoy.home.homeworks.lab1.Main] - Все объекты созданы и запущенны
+2016-10-12 23:44:17,153 [INFO ][main            ][course.java2016.girevoy.home.homeworks.lab1.Main] - Старт приложения
+2016-10-12 23:44:17,160 [INFO ][main            ][course.java2016.girevoy.home.homeworks.lab1.Main] - Все объекты созданы и запущенны
+2016-10-13 00:00:04,674 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,675 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,675 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,675 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,675 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,675 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,675 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,675 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,675 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,675 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,675 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,675 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,676 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,676 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,676 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,676 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,676 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,676 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,676 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,677 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,677 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,677 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,677 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,677 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,678 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,678 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,678 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,678 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,678 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,678 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,685 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,686 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,686 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,686 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,686 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,686 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,686 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,686 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,686 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,686 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,687 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,687 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,686 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,687 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,687 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,687 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,687 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,687 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,687 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,687 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,687 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,687 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,687 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,688 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,689 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,690 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,690 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,690 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,690 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,690 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,690 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,690 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,690 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,693 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,693 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,693 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,693 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,693 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,694 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,694 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,694 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,695 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,695 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,695 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,695 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,695 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,696 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,696 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,697 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,697 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,698 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,698 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,698 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,698 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,698 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,698 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,698 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,699 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,699 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,700 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,701 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,701 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,701 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,701 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,701 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,701 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,701 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,701 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,701 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,702 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,703 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,704 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,704 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,704 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,707 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,708 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,708 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,709 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,709 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,709 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,709 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,709 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,709 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,710 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,711 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,711 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,711 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,711 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,712 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,716 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,716 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,716 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,717 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,717 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,717 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,717 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,717 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,717 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,717 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,717 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,717 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,718 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,718 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,718 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,718 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,718 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,718 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,719 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,719 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,719 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,719 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,719 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,719 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,719 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,719 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,719 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,720 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,720 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,720 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,721 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,721 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,721 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,722 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,722 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,722 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,722 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,722 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,722 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,722 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,722 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,722 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,723 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,723 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,723 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,723 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,723 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,723 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,723 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,723 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,723 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,723 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,724 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,724 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,724 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,725 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,726 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,726 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,726 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,726 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,727 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,727 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,727 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,728 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,728 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,728 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,728 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,728 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,728 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,728 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,728 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,728 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,729 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,729 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,729 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,729 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,729 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,729 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,729 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,729 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,729 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,729 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,730 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,730 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,730 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,730 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,730 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,732 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,733 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,733 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,734 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,734 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,735 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,735 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,736 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,737 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,738 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,738 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,738 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,738 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,738 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,738 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,739 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,740 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,740 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,740 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,740 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,740 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,740 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,740 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,740 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,740 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,741 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,741 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,741 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,741 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,741 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,741 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,741 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,741 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,741 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,741 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,741 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,742 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,742 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,742 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,742 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,742 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,742 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,743 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,743 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,743 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,743 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,743 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,743 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,743 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,743 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,743 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,744 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,744 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,744 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,745 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,746 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,747 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,748 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,749 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,750 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,751 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,752 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,753 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,753 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,753 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь
+2016-10-13 00:00:04,753 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 892379606
+2016-10-13 00:00:04,753 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 892379606
+2016-10-13 00:00:04,753 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 892379606  и закончено добавление данных в очередь
+2016-10-13 00:00:04,753 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Запущен addData думателя, далее блокировка с queue: 190239894
+2016-10-13 00:00:04,753 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - addData захватил блокировку от queue: 190239894
+2016-10-13 00:00:04,753 [DEBUG][Поток пожирателя][course.java2016.girevoy.home.homeworks.lab1.DeepThought] - Освобождена блокировка queue: 190239894  и закончено добавление данных в очередь

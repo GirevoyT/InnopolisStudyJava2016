@@ -11,7 +11,8 @@ public class Devourer<T> extends Thread{
 	private Resource<T> resource;
 	private DeepThought deepThought;
 
-	public Devourer(Resource<T> resource, DeepThought deepThought) {
+	public Devourer(Resource<T> resource, DeepThought deepThought,ThreadGroup threadGroup) {
+		super(threadGroup,"Поток пожирателя");
 		this.resource = resource;
 		this.deepThought = deepThought;
 		this.start();
