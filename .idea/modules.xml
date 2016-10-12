@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InnopolisStudyJava2016.iml" filepath="$PROJECT_DIR$/.idea/modules/InnopolisStudyJava2016.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InnopolisStudyJava2016_main.iml" filepath="$PROJECT_DIR$/.idea/modules/InnopolisStudyJava2016_main.iml" group="InnopolisStudyJava2016" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InnopolisStudyJava2016_test.iml" filepath="$PROJECT_DIR$/.idea/modules/InnopolisStudyJava2016_test.iml" group="InnopolisStudyJava2016" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyRootProject.iml" filepath="$PROJECT_DIR$/.idea/modules/MyRootProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyRootProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MyRootProject_main.iml" group="MyRootProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyRootProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyRootProject_test.iml" group="MyRootProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab1module/lab1module.iml" filepath="$PROJECT_DIR$/.idea/modules/lab1module/lab1module.iml" group="lab1module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab1module/lab1module_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lab1module/lab1module_main.iml" group="lab1module" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab1module/lab1module_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lab1module/lab1module_test.iml" group="lab1module" />
     </modules>
   </component>
 </project>

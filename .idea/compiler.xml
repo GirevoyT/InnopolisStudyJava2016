@@ -21,6 +21,10 @@
     <bytecodeTargetLevel>
       <module name="InnopolisStudyJava2016_main" target="1.8" />
       <module name="InnopolisStudyJava2016_test" target="1.8" />
+      <module name="lab1module_main" target="1.8" />
+      <module name="lab1module_test" target="1.8" />
+      <module name="MyRootProject_main" target="1.8" />
+      <module name="MyRootProject_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
