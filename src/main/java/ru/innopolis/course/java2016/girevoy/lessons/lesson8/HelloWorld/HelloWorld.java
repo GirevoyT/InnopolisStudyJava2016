@@ -1,5 +1,6 @@
 package ru.innopolis.course.java2016.girevoy.lessons.lesson8.HelloWorld;
 
+import org.apache.log4j.MDC;
 import org.jcp.xml.dsig.internal.MacOutputStream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,16 +11,26 @@ import org.slf4j.LoggerFactory;
 public class HelloWorld {
 	private static Logger logger = LoggerFactory.getLogger(HelloWorld.class);
 	public static void main(String[] args) {
-		if (logger.isInfoEnabled()) {
-			Integer i = (int)(Math.random() * 1000);
-			logger.info("Тестовое сообщене для логера. Число {}",i);
+		try {
+			String userName = getUserName();
+			MDC.put("userName",userName);
+			MDC.put("userRole","admin");
+		} finally {
+			MDC.clear();
 		}
-		logger.debug("Тестовое сообщение для логгера. Дебаг");
 
+		doSomething();
+	}
 
+	private static void doSomething() {
 		logger.error("error Test");
 		logger.info("info Test");
 		logger.debug("debugg Test");
 		logger.trace("trace Test");
 	}
+
+	private static String getUserName() {
+		return  "Test User Name";
+	}
+
 }

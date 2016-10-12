@@ -1,14 +1,5 @@
 package ru.innopolis.course.java2016.girevoy.home.testWorks.testHello;
 
-import org.omg.CORBA.Object;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Scanner;
-
 /**
  * Created by Arxan on 05.10.2016.
  */

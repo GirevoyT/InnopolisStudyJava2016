@@ -1,11 +1,9 @@
-package ru.innopolis.course.java2016.girevoy.home.homeworks.lab1;
+package ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.homeworks.lab1;
 
-import org.omg.CORBA.Object;
-import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.logica.Logica;
+import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.homeworks.lab1.logica.Logica;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
-import java.util.Random;
 
 /**
  * Created by Arxan on 08.10.2016.
