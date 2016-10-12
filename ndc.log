@@ -49,3 +49,6 @@
 2016-10-12 12:43:07,127 INFO [{}] info Test
 2016-10-12 12:48:14,258 ERROR [{}] error Test
 2016-10-12 12:48:14,269 INFO [{}] info Test
+2016-10-12 13:01:16,839 ERROR [{}] error Test
+2016-10-12 13:01:21,811 ERROR [{}] error Test
+2016-10-12 13:01:21,815 INFO [{}] info Test

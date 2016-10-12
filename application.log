@@ -46,3 +46,5 @@
 2016-10-12 12:43:07,127 [INFO ][main            ][course.java2016.girevoy.lessons.lesson8.HelloWorld.HelloWorld] - info Test
 2016-10-12 12:48:14,258 [ERROR][main            ][course.java2016.girevoy.lessons.lesson8.HelloWorld.HelloWorld] - error Test
 2016-10-12 12:48:14,269 [INFO ][main            ][course.java2016.girevoy.lessons.lesson8.HelloWorld.HelloWorld] - info Test
+2016-10-12 13:01:21,811 [ERROR][main            ][course.java2016.girevoy.lessons.lesson8.HelloWorld.HelloWorld] - error Test
+2016-10-12 13:01:21,815 [INFO ][main            ][course.java2016.girevoy.lessons.lesson8.HelloWorld.HelloWorld] - info Test
