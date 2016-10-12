@@ -4,6 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.logica.Logica;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -17,30 +19,50 @@ public class DeepThought<T>{
 
 
 	public DeepThought(Logica<T> logica,ThreadGroup threadGroup) {
+		logger.debug("Запущен конструктор думателя DeepThought: {}",DeepThought.this.hashCode());
 		this.logica = logica;
-		new Thread(threadGroup,"Поток думателя №1") {
+		new Thread(threadGroup,"Поток думателя№1") {
 			public void run () {
+				logger.debug("Начал работать поток думателя DeepThought: {}",DeepThought.this.hashCode());
 				while(!isInterrupted()) {
 					try {
 						T tmpT = null;
+						logger.debug("Проверка и ожидание следующего елемента в очереди");
 						while (true) {
 							synchronized (DeepThought.this) {
+								logger.debug("Внутрений поток думателя захватил блокировку DeepThought: {}",DeepThought.this.hashCode());
 								synchronized (queue) {
+									logger.debug("Внутрений поток думателя захватил блокировку queue: {}",queue.hashCode());
 									if (!queue.isEmpty()) {
 										tmpT = queue.poll();
+										logger.debug("Очередь не пуста, взят следующий элемент из queue");
 										break;
 									}
 								}
+								logger.debug("Освобождена блокировка queue: {}",queue.hashCode());
+								logger.debug("Постановка на ожинаие от DeepThought: {}, состояние interrupt: {}",DeepThought.this.hashCode(),this.isInterrupted());
 								DeepThought.this.wait();
+								logger.debug("Проснулся из ожадиния DeepThought: {}",DeepThought.this.hashCode());
 							}
+							logger.debug("Освобождена блокировка DeepThought: {}",DeepThought.this.hashCode());
 						}
+						logger.debug("Выход из цикла ожидания следующего эллемента queue и запуск логики");
 						logica.logica(tmpT);
+						logger.debug("Логика отработала");
 					} catch (InterruptedException e) {
-						e.getStackTrace().toString();
+						this.interrupt();
+						if (logger.isWarnEnabled()) {
+							ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+							PrintStream printStream = new PrintStream(byteArrayOutputStream);
+							e.printStackTrace(printStream);
+							logger.warn(byteArrayOutputStream.toString());
+						}
 					}
 				}
+				logger.debug("Остановка внутреннего потока думателя DeepThought: {}",DeepThought.this.hashCode());
 			}
 		}.start();
+		logger.debug("Конструктор думателя отработал DeepThought: {}",DeepThought.this.hashCode());
 	}
 
 

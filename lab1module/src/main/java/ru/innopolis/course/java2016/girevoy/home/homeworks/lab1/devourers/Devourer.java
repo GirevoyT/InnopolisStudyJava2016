@@ -1,8 +1,13 @@
 package ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.devourers;
 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.DeepThought;
 import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.resource.Resource;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 
 /**
  * Created by Arxan on 08.10.2016.
@@ -10,6 +15,7 @@ import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.resource.Resourc
 public class Devourer<T> extends Thread{
 	private Resource<T> resource;
 	private DeepThought deepThought;
+	private static Logger logger= LoggerFactory.getLogger(Devourer.class);
 
 	public Devourer(Resource<T> resource, DeepThought deepThought,ThreadGroup threadGroup) {
 		super(threadGroup,"Поток пожирателя");
@@ -35,8 +41,13 @@ public class Devourer<T> extends Thread{
 						resource.addListener();
 						resource.wait();
 					} catch (InterruptedException e) {
-						e.printStackTrace();
-						resource.takeTheListener();
+						this.interrupt();
+						if (logger.isWarnEnabled()) {
+							ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+							PrintStream printStream = new PrintStream(byteArrayOutputStream);
+							e.printStackTrace(printStream);
+							logger.warn(byteArrayOutputStream.toString());
+						}
 					}
 				} else {
 					this.interrupt();
