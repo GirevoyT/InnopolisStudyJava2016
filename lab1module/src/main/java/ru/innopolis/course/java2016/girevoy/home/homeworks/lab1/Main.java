@@ -17,14 +17,21 @@ public class Main {
 		logger.info("Старт приложения");
 		ThreadGroup threadGroup = new ThreadGroup("Group1");
 		Resource<Integer> resource1 = new SafetyFileResource("./src/main/resources/Resource1",threadGroup);
+		resource1.start();
 		Resource<Integer> resource2 = new SafetyFileResource("./src/main/resources/Resource2",threadGroup);
+		resource2.start();
 		Logica<Integer> myLogica1 = new MyTaskIntegerLogica();
 		Logica<Integer> myLogica2 = new MyTaskIntegerLogica();
 		DeepThought deepThought1 = new DeepThought(myLogica1,threadGroup);
+		deepThought1.start();
 		DeepThought deepThought2 = new DeepThought(myLogica2,threadGroup);
+		deepThought2.start();
 		Devourer devourer1 = new Devourer(resource1,deepThought1,threadGroup);
+		devourer1.start();
 		Devourer devourer2 = new Devourer(resource2,deepThought1,threadGroup);
+		devourer2.start();
 		Devourer devourer3 = new Devourer(resource2,deepThought2,threadGroup);
+		devourer3.start();
 		logger.info("Все объекты созданы и запущенны");
 
 		try {

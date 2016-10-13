@@ -16,12 +16,16 @@ public class DeepThought<T>{
 	private Queue<T> queue = new PriorityQueue<>();
 	private Logica<T> logica;
 	private static Logger logger= LoggerFactory.getLogger(DeepThought.class);
+	private Thread thread;
 
+	public void start() {
+		thread.start();
+	}
 
 	public DeepThought(Logica<T> logica,ThreadGroup threadGroup) {
 		logger.debug("Запущен конструктор думателя DeepThought: {}",DeepThought.this.hashCode());
 		this.logica = logica;
-		new Thread(threadGroup,"Поток думателя№1") {
+		this.thread = new Thread(threadGroup,"Поток думателя№1") {
 			public void run () {
 				logger.debug("Начал работать поток думателя DeepThought: {}",DeepThought.this.hashCode());
 				while(!isInterrupted()) {
@@ -61,7 +65,7 @@ public class DeepThought<T>{
 				}
 				logger.debug("Остановка внутреннего потока думателя DeepThought: {}",DeepThought.this.hashCode());
 			}
-		}.start();
+		};
 		logger.debug("Конструктор думателя отработал DeepThought: {}",DeepThought.this.hashCode());
 	}
 
@@ -75,4 +79,11 @@ public class DeepThought<T>{
 		logger.debug("Освобождена блокировка queue: {}  и закончено добавление данных в очередь",queue.hashCode());
 	}
 
+	public Logica<T> getLogica() {
+		return logica;
+	}
+
+	public void setLogica(Logica<T> logica) {
+		this.logica = logica;
+	}
 }

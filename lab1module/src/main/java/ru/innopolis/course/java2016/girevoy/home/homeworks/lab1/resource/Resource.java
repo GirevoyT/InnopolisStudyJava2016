@@ -3,10 +3,13 @@ package ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.resource;
 /**
  * Created by Arxan on 08.10.2016.
  */
-public abstract class Resource<T> {
+public abstract class Resource<T> extends Thread{
 	private volatile boolean isComplite;
 	private int countOfListeners;
 
+	protected Resource (ThreadGroup threadGroup,String name) {
+		super(threadGroup,name);
+	}
 	/**
 	 * Этот метод добавляет слушателя (кого то надо notify)
 	 */
