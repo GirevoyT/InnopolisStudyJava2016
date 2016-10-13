@@ -19,17 +19,21 @@ public class Devourer<T> extends Thread{
 
 	public Devourer(Resource<T> resource, DeepThought deepThought,ThreadGroup threadGroup) {
 		super(threadGroup,"Поток пожирателя");
+		logger.debug("Запущен конструктор пожирателя: {}",this.hashCode());
 		this.resource = resource;
 		this.deepThought = deepThought;
 		this.start();
+		logger.debug("Пожиратель: {} сконфигурирован и запущен",this.hashCode());
 	}
 
 
 	@Override
 	public void run() {
 		while (!isInterrupted()) {
+			logger.debug("Начал работать поток Devourer: ",this.hashCode());
 			T tmpObject;
 			synchronized (resource) {
+				logger.debug("Пожиратель: {} захватил блокировку resource: {}",this.hashCode(),resource.hashCode());
 				if (resource.hasNext()) {
 					tmpObject = resource.next();
 					synchronized (deepThought) {

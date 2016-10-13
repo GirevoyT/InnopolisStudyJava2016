@@ -1,7 +1,6 @@
 package ru.innopolis.course.java2016.girevoy.lessons.lesson8.HelloWorld;
 
 import org.apache.log4j.MDC;
-import org.jcp.xml.dsig.internal.MacOutputStream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -26,5 +26,13 @@ public class Main {
 		Devourer devourer2 = new Devourer(resource2,deepThought1,threadGroup);
 		Devourer devourer3 = new Devourer(resource2,deepThought2,threadGroup);
 		logger.info("Все объекты созданы и запущенны");
+
+		try {
+			Thread.sleep(2000);
+			threadGroup.interrupt();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		logger.info("Остановленны оставшиеся потоки");
 	}
 }
