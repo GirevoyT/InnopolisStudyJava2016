@@ -46,11 +46,10 @@ public class ResourceChecker {
 	 */
 	public static boolean isFile(String arg) {
 		logger.debug("Запущенна проверка {} на isFile",arg);
-		boolean result;
-		if ((arg != null) && new File(arg).isFile()) {
+		boolean result = false;
+		if ((arg != null) && (new File(arg)).isFile()) {
 			result = true;
 		}
-		result = false;
 		return result;
 	}
 	/**
