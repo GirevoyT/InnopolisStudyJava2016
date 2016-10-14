@@ -54,6 +54,7 @@ public class DeepThought<T>{
 						logica.logica(tmpT);
 						logger.debug("Логика отработала");
 					} catch (InterruptedException e) {
+						logger.error(String.valueOf(this.isInterrupted()));
 						this.interrupt();
 						if (logger.isWarnEnabled()) {
 							ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
