@@ -20,17 +20,17 @@ public abstract class Resource<T> extends Thread{
 	protected synchronized int getCountOfListeners() {
 		return countOfListeners;
 	}
-
+	/**
+	 * Этот метод убирает 1 слушателя
+	 */
 	public synchronized void takeTheListener() {
 		this.countOfListeners--;
 	}
-
 	/**
 	 * Этот мерод возвращает true если есть следующий объект для возврата методом next()
 	 * @return
 	 */
 	public abstract boolean hasNext();
-
 	/**
 	 * Этот метод возвращает следующий объект из ресурса
 	 * @return

@@ -17,7 +17,6 @@ public class SafetyFileResource extends Resource<Integer> {
 	/**
 	 * Конструктор который открывает файл fileName и заполняет очередь всеми int из него
 	 * @param fileName
-	 * @throws FileNotFoundException
 	 */
 	public SafetyFileResource(String fileName) {
 		new Thread(){						//WARNING! Как ведут себя анонимные классы со сборщиком мусора

@@ -6,7 +6,9 @@ import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.devourers.Devour
 import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.logica.Logica;
 import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.logica.MyTaskIntegerLogica;
 import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.resource.Resource;
-import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.resource.SafetyFileResource;
+import ru.innopolis.course.java2016.girevoy.home.homeworks.lab1.resource.ResourceChecker;
+
+import java.math.BigInteger;
 
 /**
  * Created by Arxan on 08.10.2016.
@@ -16,12 +18,18 @@ public class Main {
 	public static void main(String[] args){
 		logger.info("Старт приложения");
 		ThreadGroup threadGroup = new ThreadGroup("Group1");
-		Resource<Integer> resource1 = new SafetyFileResource("./src/main/resources/Resource1",threadGroup);
+		Resource<Integer> resource1 = null;
+		Resource<Integer> resource2 = null;
+		resource1 = ResourceChecker.createResourceBySting("./src/main/resources/Resource1",threadGroup);
+		resource2 = ResourceChecker.createResourceBySting("./src/main/resources/Resource2",threadGroup);
+		if (resource1 == null || resource2 == null){
+			logger.warn("Один из ресурсов не существует");
+			return;
+		}
 		resource1.start();
-		Resource<Integer> resource2 = new SafetyFileResource("./src/main/resources/Resource2",threadGroup);
 		resource2.start();
-		Logica<Integer> myLogica1 = new MyTaskIntegerLogica();
-		Logica<Integer> myLogica2 = new MyTaskIntegerLogica();
+		Logica<Integer,BigInteger> myLogica1 = new MyTaskIntegerLogica();
+		Logica<Integer,BigInteger> myLogica2 = new MyTaskIntegerLogica();
 		DeepThought deepThought1 = new DeepThought(myLogica1,threadGroup);
 		deepThought1.start();
 		DeepThought deepThought2 = new DeepThought(myLogica2,threadGroup);
